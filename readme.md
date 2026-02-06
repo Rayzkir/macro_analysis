@@ -3,8 +3,8 @@
 ## Запуск
 ```bash
 python -m venv .venv
-.venv\scripts\activate (windows)
-.venv\bin\activate (unix)
+.venv\scripts\activate #windows
+.venv\bin\activate #unix
 pip install -r requirements.txt
 python -m macro_analysis.main --files examples/economic1.csv examples/economic2.csv --report average-gdp
 ```
